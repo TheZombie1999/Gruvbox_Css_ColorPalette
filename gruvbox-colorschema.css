@@ -1,0 +1,70 @@
+/* Gubbox Color Schema */
+
+/* Colors */
+:root {
+    --dark0_hard : #1d2021;
+    --dark0 : #282828;
+    --dark0_soft : #32302f;
+    --dark1 : #3c3836;
+    --dark2 : #504945;
+    --dark3 : #665c54;
+    --dark4 : #7c6f64;
+    
+    --gray_245 : #928374;
+    --gray_244 : #928374;
+    
+    --light0_hard : #f9f5d7;
+    --light0 : #fbf1c7;
+    --light0_soft : #f2e5bc;
+    --light1 : #ebdbb2;
+    --light2 : #d5c4a1;
+    --light3 : #bdae93;
+    --light4 : #a89984;
+    
+    --bright_red : #fb4934;
+    --bright_green : #b8bb26;
+    --bright_yellow : #fabd2f;
+    --bright_blue : #83a598;
+    --bright_purple : #d3869b;
+    --bright_aqua : #8ec07c;
+    --bright_orange : #fe8019;
+    
+    --neutral_red : #cc241d;
+    --neutral_green : #98971a;
+    --neutral_yellow : #d79921;
+    --neutral_blue : #458588;
+    --neutral_purple : #b16286;
+    --neutral_aqua : #689d6a;
+    --neutral_orange : #d65d0e;
+    
+    --faded_red : #9d0006;
+    --faded_green : #79740e;
+    --faded_yellow : #b57614;
+    --faded_blue : #076678;
+    --faded_purple : #8f3f71;
+    --faded_aqua : #427b58;
+    --faded_orange : #af3a03;
+}
+
+/* Dark Color Scheme*/
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg : var(--dark0);        --red1 : var(--neutral_red); --green1 : var(--neutral_green); --yellow1 : var(--neutral_yellow); --blue1 : var(--neutral_blue); --purple1 : var(--neutral_purple); --aqua1 : var(--neutral_aqua); --gray1 : var(--light4); 
+        --gray3 :var(--gray_245);    --red2 : var(--faded_red) ; --green2 :var(--faded_green) ; --yellow2 :var(--faded_yellow) ; --blue2 :var(--faded_blue) ; --purple2 : var(--faded_purple) ; --aqua2 :var(--faded_aqua) ; --fg : var(--light1); 
+        --bg0_h :var(--dark0_hard); --bg0 : var(--dark0) ; --bg1 : var(--dark1) ; --bg2 : var(--dark2) ; --bg3 :var(--dark3) ; --bg4 :var(--dark4) ; --gray2 :var(--gray_245) ; --orange1 :var(--bright_orange) ; 
+        --bg0_s :var(--dark0_soft) ; --fg4 : var(--light4) ; --fg3 : var(--light3) ; --fg2 : var(--light2) ; --fg1 : var(--light1) ; --fg0 : var(--light0) ; --orange2 : var(--faded_orange) ; 
+    }
+}
+
+/* Light Color Scheme */
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg : var(--light0);        --red1 : var(--neutral_red); --green1 : var(--neutral_green); --yellow1 : var(--neutral_yellow) ; --blue1 : var(--neutral_blue); --purple1 : var(--neutral_purple); --aqua1 : var(--neutral_aqua); --gray1 : var(--dark4); 
+        --gray3 : var(--gray_244);    --red2 :  var(--faded_red); --green2 : var(--faded_green); --yellow2 : var(--faded_yellow); --blue2 : var(--faded_blue); --purple2 : var(--faded_purple); --aqua2 : var(--faded_aqua); --fg : var(--dark1); 
+        --bg0_h : var(--light0_hard); --bg0 :  var(--light0); --bg1 : var(--light1) ; --bg2 : var(--light2) ; --bg3 : var(--light3); --bg4 : var(--light4); --gray2 : var(--gray_244); --orange1 : var(--neutral_orange); 
+        --bg0_s : var(--light0_soft); --fg4 :  var(--dark4); --fg3 : var(--dark3) ; --fg2 : var(--dark2); --fg1 : var(--dark1) ; --fg0: var(--dark0)  ; --orange2 : var(--faded_orange); 
+    }
+}
+
+
+
